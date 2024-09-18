@@ -1,0 +1,73 @@
+
+
+body, h1, p {
+    font-weight: bold;
+    margin: 0;
+    margin-top: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+label {
+    width: 150px; 
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    max-width: 300px; 
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+div {
+    margin-bottom: 20px;
+}
+
+textarea {
+    resize: vertical; 
+}
+
+button:hover {
+    background-color: rgb(255, 172, 172);
+}
+
+#tulos1, #tulos2, #tulos3, #tulos4, #tulos5, #tulos6, #tulos7{
+    color:red;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#tulos9, #tulos8 {
+    color:red;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+

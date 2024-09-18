@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lomakkeen Validointi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Rekisteröitymislomake</h1>
+    <p>Siirry kentästä toiseen tab-näppäimellä.</p><br>
+
+    <label for="textbox1">Käyttäjä ID:</label>
+    <p id="tulos1"></p>
+    <input type="text" id="textbox1"><br>
+
+    <label for="textbox2">Salasana:</label>
+    <p id="tulos2"></p>
+    <input type="text" id="textbox2"><br>
+
+    <label for="textbox3">Nimi:</label>
+    <p id="tulos5"></p>
+    <input type="text" id="textbox3"><br>
+
+    <label for="textbox4">Osoite:</label>
+    <p id="tulos6"></p>
+    <input type="text" id="textbox4"><br>
+
+    <label for="country">Maa:</label>
+    <p id="tulos7"></p>
+    <select id="suomivalitse" name="country">
+        <option value="">(Valitse maa)</option>
+        <option value="suomi">Suomi</option>
+    </select><br>
+
+    <label for="textbox5">Postinumero:</label>
+    <p id="tulos3"></p>
+    <input type="text" id="textbox5"><br>
+
+    <label for="textbox6">Sähköposti:</label>
+    <p id="tulos4"></p>
+    <input type="text" id="textbox6"><br>
+
+    <div>
+        <label>Sukupuoli:</label>
+        <input type="radio" id="male" name="gender">
+        <label for="male">Mies</label>
+        <input type="radio" id="female" name="gender">
+        <label for="female">Nainen</label>
+        <p id="tulos8"></p>
+    </div>
+
+    <div>
+        <label>Kieli:</label>
+        <input type="checkbox" id="finnish" name="language">
+        <label for="finnish">Suomi</label>
+        <input type="checkbox" id="other" name="language">
+        <label for="other">Muu kuin suomi</label>
+        <p id="tulos9"></p>
+    </div>
+
+    <div>
+        <label id="message-label" for="message">Lisätietoja:</label>
+        <textarea id="message" name="message" rows="10" cols="30"></textarea>
+    </div>
+
+    <button id="submitbtn">Lähetä</button><br>
+
+    <script src="main.js"></script>
+</body>
+</html>
